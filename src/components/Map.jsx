@@ -16,7 +16,7 @@ import { useUrlPosition } from "../hooks/useUrlPosition";
 
 function Map() {
   const { cities } = useCities();
-  const [mapPosition, setMapPosition] = useState([40, 0]);
+  const [mapPosition, setMapPosition] = useState([32, -117]);
   const {
     isLoading: isLoadingPosition,
     position: geolocationPosition,
@@ -76,7 +76,9 @@ function Map() {
 
 function ChangeCenter({ position }) {
   const map = useMap();
+
   map.setView(position);
+
   return null;
 }
 

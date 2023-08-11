@@ -1,3 +1,28 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "cityName": "San Diego",
+      "country": "United States of America (the)",
+      "emoji": "US",
+      "date": "2023-08-11T17:56:16.384Z",
+      "notes": "",
+      "position": {
+        "lat": "32.69284347003962",
+        "lng": "-117.14893341064455"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Springville-Johnsondale",
+      "country": "United States of America (the)",
+      "emoji": "US",
+      "date": "2023-08-11T18:19:24.641Z",
+      "notes": "",
+      "position": {
+        "lat": "36.29741818650811",
+        "lng": "-118.65234375000001"
+      },
+      "id": 2
+    }
+  ]
 }

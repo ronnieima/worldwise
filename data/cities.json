@@ -1,28 +1,3 @@
 {
-  "cities": [
-    {
-      "cityName": "Fernley",
-      "country": "United States of America (the)",
-      "emoji": "US",
-      "date": "2023-08-10T18:17:21.456Z",
-      "notes": "",
-      "position": {
-        "lat": "39.57182223734374",
-        "lng": "-119.22363281250001"
-      },
-      "id": 1
-    },
-    {
-      "cityName": "Uintah and Ouray",
-      "country": "United States of America (the)",
-      "emoji": "US",
-      "date": "2023-08-10T18:17:22.692Z",
-      "notes": "",
-      "position": {
-        "lat": "39.605688178320804",
-        "lng": "-109.05029296875001"
-      },
-      "id": 2
-    }
-  ]
+  "cities": []
 }

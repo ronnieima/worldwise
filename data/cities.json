@@ -1,28 +1,64 @@
 {
   "cities": [
     {
-      "cityName": "San Diego",
+      "cityName": "Terra Bella",
       "country": "United States of America (the)",
-      "emoji": "US",
-      "date": "2023-08-11T17:56:16.384Z",
-      "notes": "",
+      "emoji": "🇺🇸",
+      "date": "2023-08-13T20:15:27.446Z",
+      "notes": "d",
       "position": {
-        "lat": "32.69284347003962",
-        "lng": "-117.14893341064455"
+        "lat": "35.8356283888737",
+        "lng": "-118.93798828125001"
       },
-      "id": 1
+      "id": 3
     },
     {
-      "cityName": "Springville-Johnsondale",
-      "country": "United States of America (the)",
-      "emoji": "US",
-      "date": "2023-08-11T18:19:24.641Z",
-      "notes": "",
+      "cityName": "Budingen",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2023-08-13T20:16:09.111Z",
+      "notes": "germany",
       "position": {
-        "lat": "36.29741818650811",
-        "lng": "-118.65234375000001"
+        "lat": "50.331436330838834",
+        "lng": "9.074707031250002"
       },
-      "id": 2
+      "id": 4
+    },
+    {
+      "cityName": "Autigny-la-Tour",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-08-13T20:16:16.385Z",
+      "notes": "france",
+      "position": {
+        "lat": "48.40003249610685",
+        "lng": "5.77880859375"
+      },
+      "id": 5
+    },
+    {
+      "cityName": "Yvoir",
+      "country": "Belgium",
+      "emoji": "🇧🇪",
+      "date": "2023-08-13T20:16:22.955Z",
+      "notes": "b",
+      "position": {
+        "lat": "50.331436330838834",
+        "lng": "4.899902343750001"
+      },
+      "id": 6
+    },
+    {
+      "cityName": "Sevenoaks",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "🇬🇧",
+      "date": "2023-08-13T20:16:28.023Z",
+      "notes": "a",
+      "position": {
+        "lat": "51.23440735163461",
+        "lng": "0.24169921875000003"
+      },
+      "id": 7
     }
   ]
 }

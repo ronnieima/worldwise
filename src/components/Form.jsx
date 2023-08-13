@@ -13,14 +13,6 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { useCities } from "../contexts/CitiesContext";
 
-export function convertToEmoji(countryCode) {
-  const codePoints = countryCode
-    .toUpperCase()
-    .split("")
-    .map((char) => 127397 + char.charCodeAt());
-  return String.fromCodePoint(...codePoints);
-}
-
 const BASE_URL = "https://api.bigdatacloud.net/data/reverse-geocode-client";
 
 function Form() {
@@ -35,7 +27,13 @@ function Form() {
   const [notes, setNotes] = useState("");
   const [emoji, setEmoji] = useState("");
   const [geocodingError, setGeocodingError] = useState("");
-
+  function convertToEmoji(countryCode) {
+    const codePoints = countryCode
+      .toUpperCase()
+      .split("")
+      .map((char) => 127397 + char.charCodeAt());
+    return String.fromCodePoint(...codePoints);
+  }
   useEffect(
     function () {
       if (!lat && !lng) return;
@@ -56,7 +54,7 @@ function Form() {
 
           setCityName(data.city || data.locality || "");
           setCountry(data.countryName);
-          setEmoji(data.countryCode);
+          setEmoji(convertToEmoji(data.countryCode));
         } catch (error) {
           setGeocodingError(error.message);
         } finally {
